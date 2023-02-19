@@ -53,7 +53,7 @@ function App() {
         headers: { "content-type": "application/json" },
       }
     );
-    const date = await response.json();
+    /* const date = await response.json(); */
   }
 
   let content = <p>Found no movies.</p>;
